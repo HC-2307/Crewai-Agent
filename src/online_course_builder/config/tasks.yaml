@@ -1,0 +1,23 @@
+curriculum_task:
+  description: >
+    Design a complete course curriculum for the topic: {topic}.
+    Break it into 4-6 logically ordered modules covering the entire subject.
+  expected_output: >
+    A markdown list of modules with titles and short descriptions.
+  agent: curriculum_designer
+
+lesson_planning_task:
+  description: >
+    For each module, create 2-4 lessons.
+    Each lesson should have a title and a brief learning objective.
+  expected_output: >
+    A markdown-formatted list of lessons per module with objectives.
+  agent: lesson_planner
+
+quiz_task:
+  description: >
+    For each lesson, generate 3 multiple-choice questions (MCQs) with 4 options each.
+    Mark the correct answer and include a short explanation.
+  expected_output: >
+    A markdown list of questions grouped by lesson with answer and explanation.
+  agent: quiz_generator

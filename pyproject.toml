@@ -1,0 +1,24 @@
+[project]
+name = "online_course_builder"
+version = "0.1.0"
+description = "Online-Course-Builder using crewAI"
+authors = [{ name = "Your Name", email = "you@example.com" }]
+requires-python = ">=3.10,<3.14"
+dependencies = [
+    "crewai[tools]>=0.150.0,<1.0.0",
+    "pypika>=0.48.9",
+]
+
+[project.scripts]
+online_course_builder = "online_course_builder.main:run"
+run_crew = "online_course_builder.main:run"
+train = "online_course_builder.main:train"
+replay = "online_course_builder.main:replay"
+test = "online_course_builder.main:test"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.crewai]
+type = "crew"
