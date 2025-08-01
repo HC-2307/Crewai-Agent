@@ -1,465 +1,661 @@
 ```markdown
-# Web Development for Beginners Quiz Questions
+# Web Development for Beginners Course Quiz
 
 ## Module 1: Introduction to Web Development
 
-### Lesson 1: Understanding Web Development
-1. **Which of the following best describes front-end development?**
-   - A) Server-side scripting
-   - B) Client-side development involving user interface design
-   - C) Database management
-   - D) Network administration  
-   **Correct Answer**: B  
-   **Explanation**: Front-end development focuses on the user interface and experience, involving the design and implementation of what users interact with directly on their web browsers.
+### Lesson 1: The Importance of Web Development
+1. What is the primary role of web development in modern business?
+   - A) To create physical products  
+   - B) To establish a digital presence  
+   - C) To manage company finances  
+   - D) To design logos  
+   **Correct Answer:** B  
+   **Explanation:** Web development helps businesses create and maintain a digital presence, which is crucial in today's online market.
 
-2. **Which technologies are typically used in back-end development?**
-   - A) HTML and CSS
-   - B) JavaScript and Bootstrap
-   - C) PHP, Python, and Node.js
-   - D) JSON and XML  
-   **Correct Answer**: C  
-   **Explanation**: Back-end development usually involves server-side languages and frameworks such as PHP, Python, and Node.js that process data and serve it to the client.
+2. Which of the following best describes web development?
+   - A) A service to design print media  
+   - B) The process of building websites and applications  
+   - C) A method for managing company databases  
+   - D) A technique for search engine optimization  
+   **Correct Answer:** B  
+   **Explanation:** Web development encompasses all activities related to building websites and applications, from coding to deployment.
 
-3. **What is the primary role of a web developer?**
-   - A) To manage a company's network
-   - B) To design logos and branding
-   - C) To develop websites and web applications
-   - D) To conduct market research  
-   **Correct Answer**: C  
-   **Explanation**: The main responsibility of a web developer is to create, maintain, and improve websites and web applications that serve users' needs.
+3. Why is understanding web development important for individuals entering the job market?
+   - A) It is not relevant to most careers  
+   - B) It provides skills that are in high demand  
+   - C) It requires advanced mathematics skills  
+   - D) It is only useful for graphic designers  
+   **Correct Answer:** B  
+   **Explanation:** Knowledge of web development provides valuable skills that are highly sought after in many industries.
 
-### Lesson 2: Setting Up Your Development Environment
-1. **Which tool is essential for writing code in web development?**
-   - A) Spreadsheet software
-   - B) Text editor
-   - C) Presentation software
-   - D) Graphics editing software  
-   **Correct Answer**: B  
-   **Explanation**: A text editor is crucial for coding, as it allows developers to write and edit their source code.
+---
 
-2. **What is typically used to inspect elements on a webpage?**
-   - A) Command Prompt
-   - B) Browser developer tools
-   - C) Text editor settings
-   - D) Database management systems  
-   **Correct Answer**: B  
-   **Explanation**: Browser developer tools provide features for inspecting and debugging HTML, CSS, and JavaScript directly in the web browser.
+### Lesson 2: Types of Web Development
+1. Which type of web development focuses on the visual aspects of a website?
+   - A) Back-end development  
+   - B) Full-stack development  
+   - C) Front-end development  
+   - D) Database development  
+   **Correct Answer:** C  
+   **Explanation:** Front-end development deals with everything that users visually interact with on a website.
 
-3. **Which of the following is NOT a recommended practice for setting up a development environment?**
-   - A) Install a version control system
-   - B) Use outdated software
-   - C) Use a modern text editor
-   - D) Configure your browser for development  
-   **Correct Answer**: B  
-   **Explanation**: Using outdated software can lead to security vulnerabilities and compatibility issues; keeping your environment updated is crucial.
+2. What does back-end development primarily involve?
+   - A) Designing user interfaces  
+   - B) Writing code for server-side functions  
+   - C) Creating visual content  
+   - D) Managing social media accounts  
+   **Correct Answer:** B  
+   **Explanation:** Back-end development is concerned with the server-side logic and database interactions that support front-end functionality.
 
-### Lesson 3: How the Web Works
-1. **What does the client-server model refer to in web development?**
-   - A) A design pattern for web applications
-   - B) The exchange of requests and responses between a user's device and the web server
-   - C) A method of organizing code in programming
-   - D) A type of database architecture  
-   **Correct Answer**: B  
-   **Explanation**: The client-server model describes how clients (user devices) send requests to servers to retrieve or manipulate data.
+3. What is full-stack development?
+   - A) Focusing only on the visual presentation of a website  
+   - B) Building the entire technology stack including both front-end and back-end  
+   - C) Specializing in database management  
+   - D) Designing graphics for marketing  
+   **Correct Answer:** B  
+   **Explanation:** Full-stack development involves both front-end and back-end programming, allowing developers to build complete web applications.
 
-2. **Which protocol is primarily used for transferring web pages from servers to browsers?**
-   - A) FTP
-   - B) SMTP
-   - C) HTTPS
-   - D) SNMP  
-   **Correct Answer**: C  
-   **Explanation**: HTTPS (HTTP Secure) is the protocol used for secure communication over a computer network and is essential for loading web pages.
+---
 
-3. **What is an HTTP request?**
-   - A) A signal to load a file from a local drive
-   - B) A message sent by a client to a server to request data
-   - C) A classification for web servers
-   - D) A method of compressing files for the web  
-   **Correct Answer**: B  
-   **Explanation**: An HTTP request is a way for clients to ask servers for resources like web pages, images, or data.
+### Lesson 3: Key Technologies in Web Development
+1. Which technology is primarily used for structuring web pages?
+   - A) CSS  
+   - B) HTML  
+   - C) JavaScript  
+   - D) PHP  
+   **Correct Answer:** B  
+   **Explanation:** HTML (HyperText Markup Language) is the standard language used to create the structure of web pages.
 
-## Module 2: HTML Fundamentals
+2. What does CSS stand for?
+   - A) Cascading Style Sheets  
+   - B) Colorful Style Sheets  
+   - C) Creative Style Syntax  
+   - D) Computer Style Sheets  
+   **Correct Answer:** A  
+   **Explanation:** CSS is an acronym for Cascading Style Sheets, which is used to style HTML elements.
 
-### Lesson 1: The Structure of an HTML Document
-1. **What is the correct tag for the largest heading in HTML?**
-   - A) `<h1>`
-   - B) `<h6>`
-   - C) `<heading>`
-   - D) `<head>`  
-   **Correct Answer**: A  
-   **Explanation**: The `<h1>` tag represents the main heading of a document, and it is the largest and most important heading level.
+3. Which of the following is a server-side programming language?
+   - A) HTML  
+   - B) CSS  
+   - C) JavaScript  
+   - D) PHP  
+   **Correct Answer:** D  
+   **Explanation:** PHP is a widely-used server-side scripting language designed for web development.
 
-2. **What is the purpose of the `<body>` tag in an HTML document?**
-   - A) To define metadata for the document
-   - B) To create a header for navigation
-   - C) To contain the visible content of the web page
-   - D) To include scripting language  
-   **Correct Answer**: C  
-   **Explanation**: The `<body>` tag holds all the content that is visible on the web page, such as text, images, and links.
+---
 
-3. **Which of the following is a self-closing tag?**
-   - A) `<div>`
-   - B) `<p>`
-   - C) `<img>`
-   - D) `<h2>`  
-   **Correct Answer**: C  
-   **Explanation**: The `<img>` tag is self-closing and does not require a closing tag, as it embeds images directly in the document.
+### Lesson 4: The Web Application Development Life Cycle
+1. What is the first stage of the web development life cycle?
+   - A) Maintenance  
+   - B) Deployment  
+   - C) Design  
+   - D) Planning  
+   **Correct Answer:** D  
+   **Explanation:** The web development life cycle begins with planning, which involves defining project goals and requirements.
 
-### Lesson 2: Using Attributes in HTML
-1. **What attribute is used to specify the destination of a hyperlink?**
-   - A) href
-   - B) src
-   - C) alt
-   - D) link  
-   **Correct Answer**: A  
-   **Explanation**: The `href` attribute in the `<a>` tag specifies the URL to which the link points.
+2. In which stage of the development life cycle is user feedback typically gathered?
+   - A) Design  
+   - B) Implementation  
+   - C) Testing  
+   - D) Deployment  
+   **Correct Answer:** C  
+   **Explanation:** The testing phase is when user feedback is critical to identifying bugs and improving usability.
 
-2. **Which of the following attributes enhances accessibility in HTML?**
-   - A) title
-   - B) style
-   - C) aria-label
-   - D) access-key  
-   **Correct Answer**: C  
-   **Explanation**: The `aria-label` attribute helps convey meaning to assistive technologies, improving accessibility for users with disabilities.
+3. What is the primary goal during the maintenance phase?
+   - A) To gather requirements  
+   - B) To deploy the application  
+   - C) To ensure the web application remains functional and updated  
+   - D) To design new features from scratch  
+   **Correct Answer:** C  
+   **Explanation:** The maintenance phase focuses on ensuring that the web application continues to work smoothly and is updated as necessary.
 
-3. **What does the `alt` attribute do when applied to an image in HTML?**
-   - A) Sets the style of the image
-   - B) Provides an alternative text description
-   - C) Defines the size of the image
-   - D) Links the image to another page  
-   **Correct Answer**: B  
-   **Explanation**: The `alt` attribute provides descriptive text for images, ensuring that users who cannot see the image understand its content.
+---
 
-### Lesson 3: Creating Forms in HTML
-1. **Which tag is used to start a form in HTML?**
-   - A) `<form>`
-   - B) `<input>`
-   - C) `<fieldset>`
-   - D) `<button>`  
-   **Correct Answer**: A  
-   **Explanation**: The `<form>` tag wraps all elements of a form and is essential for capturing user input.
+## Module 2: HTML and CSS - Building the Structure and Style
 
-2. **What type of input is defined with `<input type="text">`?**
-   - A) A checkbox for selection
-   - B) A field for text entry
-   - C) A radio button
-   - D) A hidden field  
-   **Correct Answer**: B  
-   **Explanation**: The `type="text"` attribute specifies a standard text input field where users can enter plain text.
+### Lesson 1: Introduction to HTML
+1. What does an HTML tag typically consist of?
+   - A) A name and an attribute  
+   - B) A command and a color  
+   - C) An element name enclosed in angle brackets  
+   - D) A number and a name  
+   **Correct Answer:** C  
+   **Explanation:** An HTML tag consists of an element name enclosed in angle brackets, such as `<div>` or `<p>`.
 
-3. **Which element is used to create a dropdown list in a form?**
-   - A) `<input>`
-   - B) `<select>`
-   - C) `<textarea>`
-   - D) `<label>`  
-   **Correct Answer**: B  
-   **Explanation**: The `<select>` tag is used to create a dropdown list, allowing users to choose one or more options from a list.
+2. Which of the following tags is used to create a hyperlink in HTML?
+   - A) `<link>`  
+   - B) `<a>`  
+   - C) `<url>`  
+   - D) `<href>`  
+   **Correct Answer:** B  
+   **Explanation:** The `<a>` tag is used to create hyperlinks in HTML documents.
 
-## Module 3: CSS for Styling Web Pages
+3. What is the purpose of the `DOCTYPE` declaration in an HTML document?
+   - A) To define the character set used  
+   - B) To specify the document type and HTML version  
+   - C) To link to external stylesheets  
+   - D) To close the document  
+   **Correct Answer:** B  
+   **Explanation:** The `DOCTYPE` declaration informs the web browser about the version of HTML being used.
 
-### Lesson 1: CSS Selectors and Properties
-1. **Which of the following is a valid CSS selector for all `<p>` elements?**
-   - A) p
-   - B) .p
-   - C) #p
-   - D) *p  
-   **Correct Answer**: A  
-   **Explanation**: The `p` selector is a type selector that applies styles to all `<p>` elements in the document.
+---
 
-2. **What does the `color` property in CSS do?**
-   - A) Changes the background color of an element
-   - B) Alters the font size
-   - C) Sets the text color of an element
-   - D) Adjusts the line height  
-   **Correct Answer**: C  
-   **Explanation**: The `color` property determines the text color of an element and affects how content is displayed.
+### Lesson 2: Styling with CSS
+1. Which CSS property is used to change the text color of an element?
+   - A) background-color  
+   - B) font-size  
+   - C) color  
+   - D) text-style  
+   **Correct Answer:** C  
+   **Explanation:** The `color` property is used in CSS to set the text color of an HTML element.
 
-3. **What is the default value of the `display` property in CSS?**
-   - A) block
-   - B) inline
-   - C) flex
-   - D) none  
-   **Correct Answer**: B  
-   **Explanation**: The default value of the `display` property for most HTML elements is `inline`, meaning they do not start on a new line.
+2. How can you apply an external CSS file to an HTML document?
+   - A) Using the `<script>` tag  
+   - B) Using the `<link>` tag in the `<head>`  
+   - C) By including CSS code in the body  
+   - D) Using the `<style>` tag  
+   **Correct Answer:** B  
+   **Explanation:** The `<link>` tag is used in the `<head>` of an HTML document to link to an external CSS file.
 
-### Lesson 2: Layout Techniques with CSS
-1. **Which CSS layout model uses rows and columns to structure a webpage?**
-   - A) Flexbox
-   - B) Float
-   - C) Grid
-   - D) Positioning  
-   **Correct Answer**: C  
-   **Explanation**: CSS Grid is designed specifically for building two-dimensional layouts using a grid structure of rows and columns.
+3. What does the CSS property `margin` control?
+   - A) The background color of an element  
+   - B) The space around an element  
+   - C) The size of the font inside an element  
+   - D) The border thickness of an element  
+   **Correct Answer:** B  
+   **Explanation:** The `margin` property in CSS controls the space outside of an element's border.
 
-2. **What property is used to create a flexible box layout?**
-   - A) display: block;
-   - B) display: flex;
-   - C) display: grid;
-   - D) display: inline;  
-   **Correct Answer**: B  
-   **Explanation**: The `display: flex;` property creates a flex container, allowing for flexible layouts that can adapt to various screen sizes.
+---
 
-3. **Which of the following is a benefit of using Flexbox?**
-   - A) It allows easy creation of traditional layouts with fixed widths.
-   - B) It simplifies the alignment of items within the container.
-   - C) It cannot adapt to the size of the viewport.
-   - D) It is used exclusively for grid layouts.  
-   **Correct Answer**: B  
-   **Explanation**: Flexbox is beneficial for aligning items within a container, even when their size is unknown or dynamic.
+### Lesson 3: Creating a Simple Web Page
+1. What is typically used as the main structure of a simple web page?
+   - A) CSS and JavaScript  
+   - B) HTML elements like `<html>`, `<head>`, and `<body>`  
+   - C) Only images and text  
+   - D) A single CSS file  
+   **Correct Answer:** B  
+   **Explanation:** The main structure of a web page is defined using HTML elements such as `<html>`, `<head>`, and `<body>`.
 
-### Lesson 3: Responsive Design
-1. **What is the purpose of media queries in CSS?**
-   - A) To group CSS rules for readability
-   - B) To apply styles based on the viewport size or device type
-   - C) To create animations on the webpage
-   - D) To improve text accessibility  
-   **Correct Answer**: B  
-   **Explanation**: Media queries are a feature of CSS that allows styles to be applied conditionally based on the characteristics of the device's display.
+2. Where should the `<head>` element be placed in an HTML document?
+   - A) Before the `<body>` element  
+   - B) Inside the `<body>` element  
+   - C) It can be placed anywhere  
+   - D) After the closing `<html>` tag  
+   **Correct Answer:** A  
+   **Explanation:** The `<head>` element must be placed before the `<body>` to contain meta-information about the document.
 
-2. **Which meta tag helps ensure responsive design in HTML?**
-   - A) `<meta charset="UTF-8">`
-   - B) `<meta name="viewport" content="width=device-width, initial-scale=1.0">`
-   - C) `<meta http-equiv="X-UA-Compatible" content="ie=edge">`
-   - D) `<meta name="description" content="...">`  
-   **Correct Answer**: B  
-   **Explanation**: The viewport meta tag instructs the browser on how to adjust the page's dimensions and scaling to make it responsive to different devices.
+3. To create a header on the webpage, which tag would you most commonly use?
+   - A) `<div>`  
+   - B) `<header>`  
+   - C) `<h1>` to `<h6>` tags  
+   - D) `<footer>`  
+   **Correct Answer:** C  
+   **Explanation:** The `<h1>` to `<h6>` tags are commonly used to create headers of different levels within a webpage.
 
-3. **What is a common technique for implementing mobile-first design?**
-   - A) Use of float properties
-   - B) Designing for desktop first and adjusting for mobile
-   - C) Using CSS frameworks that prioritize mobile 
-   - D) Writing styles only for mobile devices  
-   **Correct Answer**: C  
-   **Explanation**: Mobile-first design begins by designing for mobile devices and then using media queries to enhance the experience on larger screens.
+---
 
-## Module 4: Introduction to JavaScript
+### Lesson 4: Building Navigation Menus
+1. What HTML element is commonly used to create navigation links?
+   - A) `<nav>`  
+   - B) `<list>`  
+   - C) `<menu>`  
+   - D) `<link>`  
+   **Correct Answer:** A  
+   **Explanation:** The `<nav>` element is specifically designed for navigation links and menus.
 
-### Lesson 1: JavaScript Basics
-1. **Which of the following is NOT a primitive data type in JavaScript?**
-   - A) String
-   - B) Number
-   - C) Object
-   - D) Boolean  
-   **Correct Answer**: C  
-   **Explanation**: In JavaScript, `String`, `Number`, and `Boolean` are primitive data types, while `Object` is a non-primitive data type.
+2. Which property is commonly used in CSS to apply styles to links?
+   - A) text-decoration  
+   - B) link-style  
+   - C) hyperlink  
+   - D) anchor-style  
+   **Correct Answer:** A  
+   **Explanation:** The `text-decoration` property in CSS is used to style links, commonly to create underlines or remove them.
 
-2. **How do you declare a variable in JavaScript?**
-   - A) var myVariable;
-   - B) let myVariable;
-   - C) const myVariable;
+3. How do you create an unordered list of navigation items in HTML?
+   - A) `<ul><li>Item1</li></ul>`  
+   - B) `<list><item>Item1</item></list>`  
+   - C) `<nav><li>Item1</li></nav>`  
+   - D) `<ol><li>Item1</li></ol>`  
+   **Correct Answer:** A  
+   **Explanation:** An unordered list in HTML is created using the `<ul>` tag with `<li>` tags for each list item.
+
+---
+
+## Module 3: JavaScript - Adding Interactivity
+
+### Lesson 1: Understanding JavaScript Basics
+1. Which keyword is used to declare a variable in JavaScript?
+   - A) var  
+   - B) let  
+   - C) const  
    - D) All of the above  
-   **Correct Answer**: D  
-   **Explanation**: Variables in JavaScript can be declared using `var`, `let`, or `const`, each having different scoping rules.
+   **Correct Answer:** D  
+   **Explanation:** All three keywords (`var`, `let`, and `const`) are used for variable declaration in JavaScript.
 
-3. **Which symbol is used to assign a value to a variable?**
-   - A) ==
-   - B) =
-   - C) ===
-   - D) :=  
-   **Correct Answer**: B  
-   **Explanation**: The `=` symbol is the assignment operator in JavaScript used to assign values to variables.
+2. What is the output of `console.log(typeof "Hello")` in JavaScript?
+   - A) "string"  
+   - B) "text"  
+   - C) "Array"  
+   - D) "undefined"  
+   **Correct Answer:** A  
+   **Explanation:** The `typeof` operator returns the type of a variable, and `"Hello"` is a string.
 
-### Lesson 2: Control Structures in JavaScript
-1. **What is the purpose of a conditional statement in JavaScript?**
-   - A) To define functions
-   - B) To repeat a block of code
-   - C) To execute code based on a certain condition
-   - D) To declare variables  
-   **Correct Answer**: C  
-   **Explanation**: Conditional statements control the flow of execution depending on whether certain conditions are true or false.
+3. What is the primary purpose of JavaScript in web development?
+   - A) To structure web pages  
+   - B) To style web pages  
+   - C) To add interactivity and dynamic features  
+   - D) To host web pages  
+   **Correct Answer:** C  
+   **Explanation:** JavaScript is primarily used to make web pages interactive and dynamic, allowing for user engagement.
 
-2. **Which of the following is the correct syntax for a `for` loop?**
-   - A) `for (i = 0; i < 10; i++)`
-   - B) `for (i: 0; i < 10; i++)`
-   - C) `for [i = 0; i < 10; i++]`
-   - D) `for {i = 0; i < 10; i++}`  
-   **Correct Answer**: A  
-   **Explanation**: The correct syntax for a `for` loop includes initialization, a condition, and an increment statement inside parentheses.
+---
 
-3. **What will the following code output? `console.log(5 === '5');`**
-   - A) true
-   - B) false
-   - C) 5
-   - D) '5'  
-   **Correct Answer**: B  
-   **Explanation**: The `===` operator checks for strict equality, meaning it evaluates both value and type; since one is a number and the other is a string, it results in `false`.
+### Lesson 2: Functions and Events
+1. How do you define a function in JavaScript?
+   - A) function myFunction() {}  
+   - B) define myFunction() {}  
+   - C) create myFunction() {}  
+   - D) function: myFunction() {}  
+   **Correct Answer:** A  
+   **Explanation:** A JavaScript function is defined using the `function` keyword followed by the function name and parentheses.
 
-### Lesson 3: Interactivity with Events
-1. **Which event is triggered when a user clicks on an element?**
-   - A) mouseover
-   - B) click
-   - C) focus
-   - D) keyup  
-   **Correct Answer**: B  
-   **Explanation**: The `click` event is specifically designed to respond to user clicks on interactive elements.
+2. What method is used to attach an event handler in JavaScript?
+   - A) addEventListener()  
+   - B) addEvent()  
+   - C) listen()  
+   - D) attachEvent()  
+   **Correct Answer:** A  
+   **Explanation:** The `addEventListener()` method is used to attach an event handler to a specific event on an element.
 
-2. **How can you add an event listener to a button in JavaScript?**
-   - A) `button.onClick = function() {...}`
-   - B) `addEventListener(button, "click", function() {...})`
-   - C) `button.addEventListener("click", function() {...})`
-   - D) `button.click(function() {...})`  
-   **Correct Answer**: C  
-   **Explanation**: The `addEventListener` method is used to attach an event handler to the specified element, in this case, to respond when the button is clicked.
+3. Which event occurs when a user clicks on an element?
+   - A) onmouseover  
+   - B) onclick  
+   - C) onhover  
+   - D) onfocus  
+   **Correct Answer:** B  
+   **Explanation:** The `onclick` event occurs when a user clicks on an element in the webpage.
 
-3. **What will the following code do when executed? `document.getElementById('myButton').addEventListener('click', function() { alert('Button clicked!'); });`**
-   - A) Sets an alert to show the button's ID
-   - B) Displays 'Button clicked!' whenever the button is clicked
-   - C) Replaces the button with an alert box
-   - D) Causes the button to disappear  
-   **Correct Answer**: B  
-   **Explanation**: This code adds an event listener to an element with the ID of 'myButton' that will display an alert message each time the button is clicked.
+---
 
-## Module 5: Building a Simple Web Project
+### Lesson 3: DOM Manipulation with JavaScript
+1. How do you select an element by its ID in JavaScript?
+   - A) document.select("elementId")  
+   - B) document.getElementById("elementId")  
+   - C) document.getElement("elementId")  
+   - D) document.querySelector("#elementId")  
+   **Correct Answer:** B  
+   **Explanation:** The method `document.getElementById("elementId")` selects an HTML element based on its ID.
 
-### Lesson 1: Project Proposal and Planning
-1. **What should a project proposal typically include?**
-   - A) Source code
-   - B) Goals, technologies, and timeline
-   - C) Technical documentation
-   - D) Hosting credentials  
-   **Correct Answer**: B  
-   **Explanation**: A project proposal outlines the objectives, planned technologies, and a timeline for executing the web project for clarity and organization.
+2. What does the `innerHTML` property allow you to do?
+   - A) Change the style of an element  
+   - B) Get or set the HTML content of an element  
+   - C) Add events to an element  
+   - D) Access an element's attributes  
+   **Correct Answer:** B  
+   **Explanation:** The `innerHTML` property is used to get or set the HTML content inside an element.
 
-2. **Why is it important to plan before starting a web project?**
-   - A) To avoid writing any code
-   - B) To ensure the project meets requirements and is completed on time
-   - C) To create unnecessary documentation
-   - D) To limit creativity  
-   **Correct Answer**: B  
-   **Explanation**: Proper planning helps ensure objectives are met efficiently, keeping track of resources and timelines, which leads to successful project execution.
+3. Which of the following methods is used to create a new HTML element in JavaScript?
+   - A) document.createElement()  
+   - B) document.newElement()  
+   - C) document.makeElement()  
+   - D) document.addElement()  
+   **Correct Answer:** A  
+   **Explanation:** The `document.createElement()` method is used to create a new HTML element.
 
-3. **What is a user story in project management?**
-   - A) A narrative about the project developer
-   - B) A description of what a user wants to achieve from the project
-   - C) A bug report log
-   - D) A feature list  
-   **Correct Answer**: B  
-   **Explanation**: A user story captures the requirements from a user's perspective, helping developers understand user needs better.
+---
 
-### Lesson 2: Developing the Project
-1. **Which technologies are combined to build a simple web project?**
-   - A) HTML, CSS, and Java
-   - B) HTML, CSS, and JavaScript
-   - C) Python, HTML, and SQL
-   - D) PHP, CSS, and MySQL  
-   **Correct Answer**: B  
-   **Explanation**: A simple web project typically utilizes HTML for structure, CSS for styling, and JavaScript for interactivity.
+### Lesson 4: Building Interactive Features
+1. Which HTML element can be used to create a button?
+   - A) `<a>`  
+   - B) `<button>`  
+   - C) `<input>` with type "button"  
+   - D) All of the above  
+   **Correct Answer:** D  
+   **Explanation:** All the listed elements can be used to create a button in HTML.
 
-2. **What is the purpose of using Git in project development?**
-   - A) To improve the project design
-   - B) For version control and collaboration
-   - C) To host web applications
-   - D) To optimize performance  
-   **Correct Answer**: B  
-   **Explanation**: Git is a version control system that allows developers to manage changes, track history, and collaborate on projects efficiently.
+2. How can you trigger a function when a button is clicked?
+   - A) By adding an event listener  
+   - B) By writing the function directly in the button tag  
+   - C) By using a console command  
+   - D) Both A and B  
+   **Correct Answer:** D  
+   **Explanation:** You can trigger a function by adding an event listener or by directly invoking the function in the button tag's `onclick` attribute.
 
-3. **When building a website with HTML, CSS, and JavaScript, what is the first step?**
-   - A) Styling with CSS
-   - B) Creating the HTML structure
-   - C) Adding JavaScript functionality
-   - D) Choosing a hosting provider  
-   **Correct Answer**: B  
-   **Explanation**: The first step is to create the HTML structure, as it defines the content and layout on which CSS and JavaScript will be applied.
+3. What is the purpose of preventing default behavior in an event handler?
+   - A) To allow the default action to proceed  
+   - B) To stop the form from submitting, for instance  
+   - C) To create a more interactive experience  
+   - D) To display an alert message  
+   **Correct Answer:** B  
+   **Explanation:** Preventing default behavior in an event handler is often used to stop forms from submitting or links from navigating, allowing for user interaction without a page refresh.
 
-### Lesson 3: Introduction to Version Control
-1. **What is the primary purpose of version control systems?**
-   - A) To track changes and collaborate with others
-   - B) To monitor website traffic
-   - C) To automate testing
-   - D) To optimize code for performance  
-   **Correct Answer**: A  
-   **Explanation**: Version control systems allow developers to track changes to code, collaborate effectively, and restore previous versions if necessary.
+---
 
-2. **Which command is used to initialize a new Git repository?**
-   - A) git start
-   - B) git init
-   - C) git create
+## Module 4: Responsive Web Design
+
+### Lesson 1: Principles of Responsive Design
+1. What does responsive design aim to achieve?
+   - A) To ensure a fixed layout for all devices  
+   - B) To make web applications adapt to various screen sizes  
+   - C) To limit website access to mobile devices only  
+   - D) To enhance the speed of web applications  
+   **Correct Answer:** B  
+   **Explanation:** Responsive design ensures that web applications work well on various devices and screen sizes.
+
+2. Which of the following techniques is commonly used in responsive design?
+   - A) Media queries  
+   - B) Static layouts  
+   - C) Fixed-width elements  
+   - D) Server-side scripting  
+   **Correct Answer:** A  
+   **Explanation:** Media queries are a key technique in responsive design, allowing styles to adapt based on device characteristics like screen size.
+
+3. Why is flexible grid layout important in responsive design?
+   - A) It simplifies coding  
+   - B) It ensures that layouts look the same on all devices  
+   - C) It allows content to adapt to different screen sizes  
+   - D) It eliminates the need for CSS  
+   **Correct Answer:** C  
+   **Explanation:** Flexible grid layouts allow the design to adjust smoothly to different screen sizes, improving user experience.
+
+---
+
+### Lesson 2: Introduction to CSS Frameworks
+1. What is a CSS framework?
+   - A) A tool for writing HTML  
+   - B) A collection of CSS files and components to streamline web design  
+   - C) A graphics design software  
+   - D) A JavaScript library  
+   **Correct Answer:** B  
+   **Explanation:** A CSS framework provides a structured approach with pre-built CSS components to facilitate faster web design.
+
+2. Which CSS framework is known for its grid system and responsive utility classes?
+   - A) Bulma  
+   - B) Bootstrap  
+   - C) Tailwind  
+   - D) Foundation  
+   **Correct Answer:** B  
+   **Explanation:** Bootstrap is popular for its comprehensive grid system and responsive utility classes to create responsive designs easily.
+
+3. How does using a CSS framework affect development time?
+   - A) It decreases development time by reducing the need for custom CSS  
+   - B) It increases complexity, taking more time  
+   - C) It requires no CSS at all  
+   - D) It is only useful for large projects  
+   **Correct Answer:** A  
+   **Explanation:** CSS frameworks typically provide reusable components that can significantly speed up the development process.
+
+---
+
+### Lesson 3: Using Media Queries
+1. What is the primary function of media queries in CSS?
+   - A) To add animations  
+   - B) To apply different styles based on device characteristics  
+   - C) To create layout grids  
+   - D) To combine CSS files  
+   **Correct Answer:** B  
+   **Explanation:** Media queries are used to apply different styles depending on factors like screen size or resolution, enabling responsive design.
+
+2. Which of the following is an example of a media query?
+   - A) @media (max-width: 600px) { ... }  
+   - B) @style { ... }  
+   - C) media: 600px { ... }  
+   - D) @responsive { ... }  
+   **Correct Answer:** A  
+   **Explanation:** The correct format for a media query is `@media` followed by conditions such as screen width, as shown in the option.
+
+3. How can media queries improve user experience on a mobile device?
+   - A) By reducing images to lower quality  
+   - B) By hiding elements only for mobile users  
+   - C) By optimizing layout and readability for smaller screens  
+   - D) By eliminating the need for responsiveness  
+   **Correct Answer:** C  
+   **Explanation:** Media queries enable adaptations that enhance layout, readability, and overall usability on mobile devices.
+
+---
+
+### Lesson 4: Enhancing Existing Projects for Responsiveness
+1. What is the first step to make an existing project responsive?
+   - A) Redesign the entire project  
+   - B) Test its functionality  
+   - C) Evaluate the layout and breakpoints  
+   - D) Add images  
+   **Correct Answer:** C  
+   **Explanation:** Evaluating the layout and determining breakpoints is essential for understanding how to adapt an existing project for responsiveness.
+
+2. Which of the following is a common adjustment made for mobile responsiveness?
+   - A) Increasing font sizes for readability  
+   - B) Using fixed widths for elements  
+   - C) Hiding all content  
+   - D) Keeping desktop layouts unchanged  
+   **Correct Answer:** A  
+   **Explanation:** Increasing font sizes enhances readability on smaller screens, which is a key aspect of responsive design.
+
+3. How can you ensure that images are responsive in web design?
+   - A) By using fixed pixel dimensions  
+   - B) By applying a width of 100% in CSS  
+   - C) By using only background images  
+   - D) By ignoring their size  
+   **Correct Answer:** B  
+   **Explanation:** Setting the width of images to 100% in CSS allows them to scale proportionally with their containing elements.
+
+---
+
+## Module 5: Introduction to Version Control with Git
+
+### Lesson 1: Understanding Version Control
+1. What is the primary benefit of version control systems like Git?
+   - A) To manage project budgets  
+   - B) To keep track of changes in code  
+   - C) To enhance graphic design  
+   - D) To monitor web traffic  
+   **Correct Answer:** B  
+   **Explanation:** The primary benefit of version control is to track changes in code, enabling better collaboration and accountability.
+
+2. Which of the following best describes a repository in Git?
+   - A) A graphical interface for coding  
+   - B) A storage space for project files and revision history  
+   - C) A type of programming language  
+   - D) A server for hosting websites  
+   **Correct Answer:** B  
+   **Explanation:** A repository in Git is where all project files and their revision history are stored.
+
+3. What does the term "commit" refer to in Git?
+   - A) The final submission of completed work  
+   - B) A snapshot of code changes made  
+   - C) Collaborating with others  
+   - D) Designing a user interface  
+   **Correct Answer:** B  
+   **Explanation:** A "commit" in Git refers to a snapshot of the changes made to the code, recorded with a message describing the changes.
+
+---
+
+### Lesson 2: Setting Up a GitHub Account
+1. What is the first step to create a GitHub account?
+   - A) Download Git software  
+   - B) Go to the GitHub website and sign up  
+   - C) Install a text editor  
+   - D) Create a project  
+   **Correct Answer:** B  
+   **Explanation:** The first step to creating a GitHub account is visiting the GitHub website and signing up through their registration process.
+
+2. What type of repositories can you create on GitHub?
+   - A) Private repositories only  
+   - B) Public repositories only  
+   - C) Both private and public repositories  
+   - D) Only read-only repositories  
+   **Correct Answer:** C  
+   **Explanation:** GitHub allows users to create both public and private repositories for their projects.
+
+3. Which feature of GitHub helps in documenting projects?
+   - A) Pull requests  
+   - B) Wiki pages  
+   - C) Issues  
+   - D) Branches  
+   **Correct Answer:** B  
+   **Explanation:** Wiki pages on GitHub provide a space for documenting projects and sharing information with collaborators.
+
+---
+
+### Lesson 3: Basic Git Commands
+1. What is the command to initialize a new Git repository?
+   - A) git start  
+   - B) git init  
+   - C) git create  
    - D) git new  
-   **Correct Answer**: B  
-   **Explanation**: The command `git init` initializes a new Git repository, creating a `.git` folder for tracking changes.
+   **Correct Answer:** B  
+   **Explanation:** The command `git init` is used to create a new Git repository in the current directory.
 
-3. **What is a commit in Git?**
-   - A) The process of pushing code to a remote server
-   - B) A snapshot of changes in the repository at a point in time
-   - C) The creation of a new branch
-   - D) The integration of code from multiple contributors  
-   **Correct Answer**: B  
-   **Explanation**: A commit captures the state of the project at a specific point and records what changes were made.
+2. What does the `git add` command accomplish?
+   - A) It commits changes to the repository  
+   - B) It stages changes for the next commit  
+   - C) It deletes files from the repository  
+   - D) It creates a new branch  
+   **Correct Answer:** B  
+   **Explanation:** The `git add` command stages modified files for the next commit, allowing you to include them in your revision history.
 
-## Module 6: Web Development Best Practices and Next Steps
+3. Which command is used to store changes in Git permanently?
+   - A) git record  
+   - B) git save  
+   - C) git commit  
+   - D) git push  
+   **Correct Answer:** C  
+   **Explanation:** The `git commit` command is used to save changes to the local repository permanently, accompanied by a message describing the changes.
 
-### Lesson 1: Best Practices for Web Development
-1. **Which of the following is a best practice for web accessibility?**
-   - A) Avoid using alt text for images
-   - B) Use semantic HTML tags
-   - C) Rely solely on color to convey information
-   - D) Ignore browser compatibility  
-   **Correct Answer**: B  
-   **Explanation**: Using semantic HTML tags enhances accessibility by providing meaning and context that assistive technologies can utilize.
+---
 
-2. **What is important for performance optimization in web development?**
-   - A) Maximum use of images
-   - B) Minification of CSS and JavaScript
-   - C) Ignoring mobile users
-   - D) Using excessive third-party libraries  
-   **Correct Answer**: B  
-   **Explanation**: Minification removes unnecessary characters from code to reduce file size and improve load times, enhancing performance.
+### Lesson 4: Collaborating with Git
+1. What is the purpose of branching in Git?
+   - A) To make code changes directly to the main branch  
+   - B) To allow multiple developers to work independently on features  
+   - C) To delete older versions of code  
+   - D) To merge code automatically  
+   **Correct Answer:** B  
+   **Explanation:** Branching in Git enables multiple developers to work independently on different features or bug fixes without affecting the main code base.
 
-3. **Which of the following describes a coding standard?**
-   - A) A specific technology to use for projects
-   - B) Set guidelines that enhance code readability and maintainability
-   - C) A performance measure for applications
-   - D) A type of programming language  
-   **Correct Answer**: B  
-   **Explanation**: Coding standards provide guidelines for writing code, ensuring consistency and helping teams work together more effectively.
+2. What does the `git merge` command do?
+   - A) It removes a branch  
+   - B) It combines changes from one branch into another  
+   - C) It creates a new repository  
+   - D) It initializes a new project  
+   **Correct Answer:** B  
+   **Explanation:** The `git merge` command combines changes from one branch into the current branch, integrating the work of different developers.
 
-### Lesson 2: Exploring Frameworks and Libraries
-1. **What is a web framework?**
-   - A) A content management system
-   - B) A reusable set of components that simplify web development
-   - C) A database management tool
-   - D) A method of web security  
-   **Correct Answer**: B  
-   **Explanation**: A web framework provides structure and reusable components, enabling developers to build applications more efficiently.
+3. How can you resolve merge conflicts in Git?
+   - A) By ignoring them  
+   - B) By editing the conflicting files and re-committing  
+   - C) By deleting conflicting branches  
+   - D) By restarting the repository  
+   **Correct Answer:** B  
+   **Explanation:** To resolve merge conflicts, developers must edit the files that have conflicts and then commit the resolved changes.
 
-2. **Which of the following is a popular JavaScript library?**
-   - A) Bootstrap
-   - B) jQuery
-   - C) Angular
-   - D) Flask  
-   **Correct Answer**: B  
-   **Explanation**: jQuery is a popular JavaScript library that simplifies DOM manipulation and event handling, making it easier to work with HTML documents.
+---
 
-3. **When should you consider using a framework for your project?**
-   - A) When starting a simple static website
-   - B) When you need structured data management and reusable UI components
-   - C) When you want to learn a new programming language
-   - D) When developing software for non-web applications  
-   **Correct Answer**: B  
-   **Explanation**: Frameworks are beneficial for projects requiring organized code management and common components, particularly in larger applications with complex interactions.
+## Module 6: Deploying Your Website
 
-### Lesson 3: Building a Portfolio and Job Search Strategies
-1. **What should your web development portfolio showcase?**
-   - A) Personal interests and hobbies
-   - B) Examples of your best work and projects
-   - C) Only your educational background
-   - D) Job listings  
-   **Correct Answer**: B  
-   **Explanation**: A portfolio should highlight completed projects that demonstrate your skills, creativity, and expertise in web development.
+### Lesson 1: Overview of Web Hosting
+1. What is web hosting?
+   - A) The process of creating a website  
+   - B) A place to store website files and make them accessible over the internet  
+   - C) A tool for editing source code  
+   - D) An online marketing strategy  
+   **Correct Answer:** B  
+   **Explanation:** Web hosting is the service that provides storage space for website files and makes them available on the internet.
 
-2. **What is an effective strategy for job searching in web development?**
-   - A) Apply to every job regardless of interest
-   - B) Network with industry professionals and attend events
-   - C) Focus exclusively on job boards
-   - D) Wait for companies to contact you  
-   **Correct Answer**: B  
-   **Explanation**: Networking and engaging with professionals in the field can lead to job opportunities and valuable insights into the industry.
+2. Which of the following is a type of web hosting service?
+   - A) Shared hosting  
+   - B) Dedicated hosting  
+   - C) Cloud hosting  
+   - D) All of the above  
+   **Correct Answer:** D  
+   **Explanation:** All the mentioned services refer to different types of web hosting, each suitable for various hosting needs.
 
-3. **Why is including project details important in your portfolio?**
-   - A) It makes your portfolio longer
-   - B) It shows potential employers the tools and technologies you’re familiar with
-   - C) It provides no real benefit
-   - D) It can be ignored as the design is more important  
-   **Correct Answer**: B  
-   **Explanation**: Project details give employers insight into the technologies you used, your problem-solving abilities, and how you approached the project.
+3. Why is uptime an important factor when choosing a web hosting provider?
+   - A) It affects the loading speed of web pages  
+   - B) It determines how often the server is operational  
+   - C) It influences design choices  
+   - D) It is irrelevant to website success  
+   **Correct Answer:** B  
+   **Explanation:** Uptime reflects how often a web server is operational and accessible, making it crucial for website reliability.
+
+---
+
+### Lesson 2: Registering a Domain Name
+1. What is a domain name?
+   - A) An IP address  
+   - B) The physical address of a web server  
+   - C) The address used to access a website  
+   - D) A type of website design  
+   **Correct Answer:** C  
+   **Explanation:** A domain name is the human-readable address used to access a website, such as www.example.com.
+
+2. Which of the following is a requirement for a valid domain name?
+   - A) It must contain special characters  
+   - B) It can be any length  
+   - C) It must not exceed 63 characters  
+   - D) It must include numbers only  
+   **Correct Answer:** C  
+   **Explanation:** A domain name must meet certain criteria, including the limitation of a maximum of 63 characters.
+
+3. What is typically done before finalizing a domain name purchase?
+   - A) Select web hosting  
+   - B) Conduct a search to ensure it's available  
+   - C) Write code for the website  
+   - D) Create social media accounts  
+   **Correct Answer:** B  
+   **Explanation:** Before purchasing a domain name, it's crucial to check its availability to ensure it's not already taken.
+
+---
+
+### Lesson 3: Using Deployment Platforms
+1. What is a benefit of using platforms like Netlify or GitHub Pages for deployment?
+   - A) They automatically create database schemas  
+   - B) They simplify the deployment process  
+   - C) They provide offline access  
+   - D) They reduce coding requirements  
+   **Correct Answer:** B  
+   **Explanation:** Deployment platforms like Netlify or GitHub Pages streamline the process of making websites live on the internet.
+
+2. What is generally required to deploy a website on GitHub Pages?
+   - A) A public Git repository  
+   - B) A financial investment  
+   - C) High-level programming skills  
+   - D) A mobile-friendly design  
+   **Correct Answer:** A  
+   **Explanation:** To deploy a website on GitHub Pages, you need to have a public Git repository with your website's code.
+
+3. Which of the following describes how Netlify functions?
+   - A) Only for blogs  
+   - B) Provides hosting with continuous deployment features  
+   - C) Exclusive to front-end frameworks  
+   - D) Only allows static websites  
+   **Correct Answer:** B  
+   **Explanation:** Netlify offers hosting services along with continuous deployment features that automatically update a site when changes are made in the repository.
+
+---
+
+### Lesson 4: Making Your Website Live
+1. What is typically the last step in deploying a website?
+   - A) Configuring the web server  
+   - B) Registering a domain name  
+   - C) Ensuring all links are functional  
+   - D) Making it accessible via a URL  
+   **Correct Answer:** D  
+   **Explanation:** Making the website accessible via a URL is generally the final step to ensure users can reach the site online.
+
+2. What should be verified after deploying a website?
+   - A) The quality of designs  
+   - B) The functionality of all features and links  
+   - C) The length of content  
+   - D) The cost of hosting  
+   **Correct Answer:** B  
+   **Explanation:** It is important to check that all features and links are functional after the website has been deployed to ensure a good user experience.
+
+3. Why is maintenance necessary after a website goes live?
+   - A) It keeps web design trends up-to-date  
+   - B) To continually improve and fix any issues  
+   - C) It eliminates the need for hosting  
+   - D) It reduces server costs  
+   **Correct Answer:** B  
+   **Explanation:** Maintenance is essential to improve the website, fix bugs, and ensure it continues to meet user needs after going live.
 ```
